@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_interface"
+            android:title="ANASAYFA" />
+        <item
+            android:id="@+id/nav_hakkımızda"
+            android:icon="@drawable/ic_about_us"
+            android:title="HAKKIMIZDA" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Komiteler">
+            <menu>
+        <item
+            android:id="@+id/nav_cs"
+            android:icon="@drawable/ic_cs"
+            android:title="CS" />
+        <item
+            android:id="@+id/nav_rasPes"
+            android:icon="@drawable/ic_raspes"
+            android:title="RAS" />
+        <item
+            android:id="@+id/nav_embs"
+            android:icon="@drawable/ic_iembs"
+            android:title="EMBS" />
+        <item
+            android:id="@+id/nav_tems"
+            android:icon="@drawable/ic_time_management"
+            android:title="TEMS" />
+
+            </menu>
+        </item>
+    </group>
+
+
+</menu>
